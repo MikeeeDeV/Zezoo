@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>استبيان</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Tajawal', sans-serif;
+            line-height: 1.8;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(to bottom, #ebf8ff, #2b6cb0);
+            color: #2d3748;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 100%;
+            width: 90%;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            animation: fade-in 1s ease-in-out;
+        }
+
+        .question {
+            margin: 20px 0;
+            padding: 15px;
+            border-right: 4px solid #4299e1;
+            background: #f8fafc;
+            border-radius: 8px;
+            text-align: right;
+        }
+
+        .question-title {
+            color: #2b6cb0;
+            font-size: 1.4em;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+
+
+        .question-info {
+            color: #1ABC9C;
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+
+
+
+        .answer {
+            background: #ebf8ff;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 6px;
+            border: 1px dashed #4299e1;
+            color: #2c5282;
+        }
+
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #2b6cb0;
+            padding-bottom: 25px;
+            margin-bottom: 40px;
+        }
+
+        .contact-box {
+            background: #2b6cb0;
+            color: white;
+            padding: 25px;
+            margin-top: 40px;
+            border-radius: 10px;
+            text-align: center;
+        }
+a:hover {
+    background: #0077b5;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+        a:hover {
+            background: #0077b5;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        @keyframes fade-in {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @media (max-width: 600px) {
+            .question {
+                padding: 10px;
+            }
+            .question-title {
+                font-size: 1.2em;
+            }
+            .question-info {
+                font-size: 1em;
+            }
+            .answer {
+                font-size: 0.9em;
+            }
+            a {
+                width: 100%;
+                text-align: center;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>استبيان الطالب: [زياد ايمن]</h1>
+            <p>أكاديميه [راسخ] - الصف [الثانى الاعدادى]</p>
+        </div>
+
+        <!-- الأسئلة والإجابات -->
+        <div class="question">
+            <div class="question-title">1. المذاكرة والدافعية:</div>
+					<span class="question-info">
+					   - هل عدم المذاكرة ناتج عن ضعف المستوى الدراسي أم عدم الرغبة؟ <br>(مثال: هل يُظهر مقاومة نفسية عند البدء في المذاكرة؟).  
+					</span>
+            <div class="answer">
+عدم المذاكره ناتج عن ضعف المستوى الدراسي و نعم يُظهر مقاومه نفسيه عند البدء فى المذاكره
+
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-title">2. الالتزام بآداب طالب العلم بالفصل:</div>
+					<span class="question-info">
+				<ol>
+				<li>• الاستئذان قبل التحدث أو الحركة</li>
+            <li>• عدم مقاطعة المعلم/الزملاء</li>
+            <li>• إحضار الأدوات المدرسية</li>
+            <li>• إتمام الواجبات بدقة</li>
+            <li>• تجنب المزاح الجسدي</li>
+            <li>• التركيز أثناء الشرح</li>
+            <li>• إخلاص النية في طلب العلم</li>
+						</ol>
+					</span>
+            <div class="answer">
+    				<ol>
+					            <li><strong>الاستئذان قبل التحدث أو الحركة:</strong> النقطة الأولى</li>
+            <li><strong>عدم مقاطعة المعلم/الزملاء:</strong> النقطة الثانية</li>
+            <li><strong>إحضار الأدوات المدرسية:</strong> نعم يلتزم بإحضار أدواته</li>
+            <li><strong>إتمام الواجبات بدقة:</strong> لا يلتزم بإتمامها والسبب أنها تكون صعبة جدًا عليه نظرًا لتأخر مستواه الدراسي</li>
+            <li><strong>تجنب المزاح الجسدي:</strong> أحيانًا يكون مزاحه جسديًا</li>
+            <li><strong>التركيز أثناء الشرح:</strong> تركيزه أثناء الشرح يكون بدرجة متدنية بسبب تأخر مستواه الدراسي<br>وقد لامسنا تحسنًا في مستواه الدراسي في الفترة القصيرة الماضية</li>
+            <li><strong>إخلاص النية في طلب العلم:</strong> تكون نواياه خالصة للتعلم في بعض الحالات<br>مثلا عند تذكيره بتعب والديه وكيف ستكون حالتهما النفسية حال رسوب طفلهما أو ثبات تدني مستواه الدراسي</li>
+					</ol>
+            </div>
+        </div>
+
+
+                <div class="question">
+            <div class="question-title">3. أداء الواجبات والاعتماد على الذات:</div>
+				<span class="question-info">   - هل يحل الواجبات بنفسه دون الاعتماد على (اليوتيوب/الحلول الجاهزة الموجودة في آخر الكتاب)؟  
+</span>
+            <div class="answer">
+<strong>الاعتماد على الأم</strong> فى تحضير الواجبات و ترتيب المهام و المتابعه طوال الوقت و بعد الانتهاء إذا توجب عليه حفظ أو حل اسئله بمفرده يكون قد استُنفِذت طاقته ولا يستطيع
+
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-title">4. التأديب والتحفيز في المنزل:</div>
+					<span class="question-info">   - هل تُطبقون عقوبات تربوية عند تقصيره؟ (مثل: حرمان من أشياء يحبها، حوار تحفيزي...).  
+</span>
+            <div class="answer">
+<b>نعم</b> نطبق الحرمان و سياسات الردع و التحدث معه باستمرار 
+
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-title">5. ردود أفعال الطالب تجاه الأخطاء:</div>
+					<span class="question-info">   - هل يهاب ردود أفعالكم عند الوقوع في خطأ؟  
+</span>
+            <div class="answer">
+يهاب والده فقط 
+و اخوه الكبير احيانا
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-title">6. النظام اليومي:</div><span class="question-info">   - ما هو موعد نومه؟ هل ينام مبكرًا؟  
+</span>
+            <div class="answer">
+نعم ينام مبكرا
+
+            </div>
+        </div>
+        <div class="question">
+            <div class="question-title">7.تنظيم الاوقات:
+</div>
+<span class="question-info">   - هل تضعون قيودًا زمنية لاستخدام الأجهزة الإلكترونية مثل الموبايل؟  
+</span>
+            <div class="answer">
+نعم وليس لديه هاتف خاص به أصلا 
+ 
+            </div>
+        </div>
+
+ <div class="question">
+            <div class="question-title">8.الاخلاق:</div><span class="question-info">  -       هل بيشاهد اشياء غير اخلاقية؟
+</span>
+            <div class="answer">
+لا ، لانه توجد متابعه قويه لاستخدام الهاتف سواء هاتف والدته أو والده 
+
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-title">9. العوامل المساعدة على المذاكرة:</div><span class="question-info">   - هل يحتاج إلى وجود أحد بجانبه لبدء المذاكرة؟  
+</span>
+            <div class="answer">
+نعم وبشده و تكون دائما والدته 
+
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-title">10. الشعور بالمسؤولية:</div><span class="question-info">   - هل يشعر بأنه 
+<b>رجل مسؤول</b>
+ قادر على الوفاء بوعوده وتحمل عواقب قراراته؟  
+</span>
+            <div class="answer">
+احيانا ، ولكنه يشعُر ب الإحباط عند استغراق الكثير من الوقت فى المذاكره و بعدها يشعر ان المحصله ضعيفه 
+
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-title">11. الصدق وتجنب المشاكل:</div><span class="question-info">   - هل يلجأ للكذب أحيانًا لتجنب المواقف الصعبة؟  
+</span>
+            <div class="answer">
+يفضل الصدق احيانا
+            </div>
+        </div>
+
+        <div class="question">
+            <div class="question-title">12. الالتزام الديني:</div><span class="question-info">    - هل يؤدي الصلوات في أوقاتها بانتظام؟  
+</span>
+            <div class="answer">
+بعد الالحاح الشديد ، ولاحظنا انه عندما يواجه الكثير من العقبات يقول
+<b>
+حياتى بايظه بسبب تقصيرى فى الصلوات
+</b>
+
+            </div>
+        </div>
+
+
+
+        <div class="contact-box">
+            <h3> شكر خاص الى الشيخ إسلام</h3>
+            <p>وشكرا لكم</p>
+            <h4><strong>أكاديمية راسخ</strong></h4>
+				<p>حفظ الله القائمين عليها و بارك فى جهودهم العظيمه و الملموسه</p>
+        </div>
+			    <a href="https://t.me/melo_pl" 
+       target="_blank" 
+       style="display: inline-block; 
+              margin-top: 20px; 
+              padding: 12px 25px; 
+              background: #0088cc; 
+              color: white; 
+              text-decoration: none; 
+              border-radius: 6px; 
+              font-weight: bold;">
+       <img src="https://telegram.org/img/t_logo.svg" 
+            alt="Telegram Logo" 
+            style="width: 20px; 
+                   vertical-align: middle; 
+                   margin-left: 8px;">
+       تواصل عبر Telegram
+    </a>
+    <a href="https://wa.me/201118275197" target="_blank" style="display: inline-block; margin: 10px 5px; padding: 12px 25px; background: #25D366; color: white; text-decoration: none; border-radius: 6px; font-weight: bold;">
+       <img src="images/whatsapp-icon.svg" alt="WhatsApp Logo" style="width: 20px; vertical-align: middle; margin-left: 8px;">
+       تواصل عبر WhatsApp
+    </a>
+    </div>
+</body>
+</html>
